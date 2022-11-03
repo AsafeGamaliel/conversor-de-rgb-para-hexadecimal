@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor RGB para HEX</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Converter</h1>
+        
+        <h2 class="red">Red</h2>
+        <input id="red" type="number" min="0" max="255" step="1" placeholder="0">
+
+        <h2 class="green">Green</h2>
+        <input id="green" type="number" min="0" max="255" step="1" placeholder="0">
+
+        <h2 class="blue">Blue</h2>
+        <input id="blue" type="number" min="0" max="255" step="1" placeholder="0">
+
+        <button>Converter para Hex</button>
+        
+        <hr>
+
+        <div class="rgb">
+            <h2 class="red">0</h2>
+            <h2 class="green">0</h2>
+            <h2 class="blue">0</h2>
+        </div>
+        <h3>Converte para</h3>
+        <h3 class="hex">#000000</h3>
+        <div class="hex-color"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
